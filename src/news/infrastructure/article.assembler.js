@@ -1,5 +1,5 @@
 import {Article} from "../domain/model/article.entity.js";
-import {SourceAssembler} from "src/shared/infrastructure/source.assembler.js";
+import {SourceAssembler} from "../../shared/infrastructure/source.assembler.js";
 
 export class ArticleAssembler {
     static source = null;
