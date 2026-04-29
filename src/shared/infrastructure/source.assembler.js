@@ -1,5 +1,5 @@
-import {LogoDevApi} from "src/shared/infrastructure/logo-dev-api.js";
-import {Source} from "src/news/domain/model/source.entity.js";
+import {Source} from "../../news/domain/model/source.entity.js";
+import {LogoDevApi} from "./logo-dev-api.js";
 
 const logoApi = new LogoDevApi();
 
