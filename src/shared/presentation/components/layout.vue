@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from "vue";
 import FooterContent from "./footer-content.vue";
+import LanguageSwitcher from "./language-switcher.vue";
 
 const drawerVisible = ref(false);
 
@@ -20,6 +21,7 @@ const toggleDrawer = () => {
         </template>
         <template #end>
           <!-- Add Language Switcher here -->
+          <language-switcher/>
         </template>
       </pv-menubar>
     </div>
